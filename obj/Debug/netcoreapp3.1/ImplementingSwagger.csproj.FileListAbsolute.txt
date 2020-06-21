@@ -24,3 +24,4 @@ C:\Users\Rashik\source\repos\ImplementingSwagger\ImplementingSwagger\obj\Debug\n
 C:\Users\Rashik\source\repos\ImplementingSwagger\ImplementingSwagger\obj\Debug\netcoreapp3.1\ImplementingSwagger.dll
 C:\Users\Rashik\source\repos\ImplementingSwagger\ImplementingSwagger\obj\Debug\netcoreapp3.1\ImplementingSwagger.pdb
 C:\Users\Rashik\source\repos\ImplementingSwagger\ImplementingSwagger\obj\Debug\netcoreapp3.1\ImplementingSwagger.genruntimeconfig.cache
+C:\Users\Rashik\source\repos\ImplementingSwagger\ImplementingSwagger\bin\Debug\netcoreapp3.1\ImplementingSwagger.xml

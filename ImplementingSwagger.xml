@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImplementingSwagger</name>
+    </assembly>
+    <members>
+        <member name="M:ImplementingSwagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            Sample Weather Forecast
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementingSwagger.Controllers.WeatherForecastController.FullName(ImplementingSwagger.Person)">
+             <summary>
+             Return Full Name From The Request
+             </summary>
+             <remarks>
+             Sample request:
+            
+             POST WeatherForeCast/FullName
+            
+             {
+            
+                     "FirstName":"Rashik",
+                     "LastName":"Tuladhar"
+            
+             }
+             </remarks>
+             <param name="person"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

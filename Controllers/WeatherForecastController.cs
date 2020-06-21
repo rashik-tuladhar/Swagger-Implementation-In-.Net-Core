@@ -24,6 +24,10 @@ namespace ImplementingSwagger.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Sample Weather Forecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -35,6 +39,31 @@ namespace ImplementingSwagger.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+
+        /// <summary>
+        /// Return Full Name From The Request
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        /// POST WeatherForeCast/FullName
+        ///
+        /// {
+        ///
+        ///         "FirstName":"Rashik",
+        ///         "LastName":"Tuladhar"
+        ///
+        /// }
+        /// </remarks>
+        /// <param name="person"></param>
+        /// <returns></returns>
+        [Route("FullName")]
+        [HttpPost]
+        public string FullName(Person person)
+        {
+            return person.FirstName + " " + person.LastName;
         }
     }
 }
