@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "WTuLrwtRC/Vg4p2ES2G6bEnMEUKdTwWRxcHe5O7+OikXau099HPO/FGa+5Pb4YdI8jGA9b+1wJJm2VXRH5QIwQ==",
+  "dgSpecHash": "CG4L+gME9rtdfTS8PqoeGNdqsXxb/PEEv0VRKLAYE7RWK6m8AybqHOICNbj3mBgil461HyKQrUcHkbPl20C2Jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rashik\\source\\repos\\ImplementingSwagger\\ImplementingSwagger\\ImplementingSwagger.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.0\\swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.0\\swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.0\\swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
