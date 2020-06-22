@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\swagger-ui\swagger-custom-styles.css" />
-    <None Include="wwwroot\swagger-ui\swagger-custom-script.js" />
+    <None Include="wwwroot\swagger-custom\swagger-custom-styles.css" />
+    <None Include="wwwroot\swagger-custom\swagger-custom-script.js" />
   </ItemGroup>
 
   <ItemGroup>
