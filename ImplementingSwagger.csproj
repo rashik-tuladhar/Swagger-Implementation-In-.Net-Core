@@ -9,6 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\swagger-ui\swagger-custom-styles.css" />
+    <None Include="wwwroot\swagger-ui\swagger-custom-script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
   </ItemGroup>
 
